@@ -1,5 +1,4 @@
-# Nicky-Valentines 
-<!DOCTYPE html>
+# Nicky 
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -8,15 +7,23 @@
 
   <style>
     body {
-      margin: 0;
-      height: 100vh;
-      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
-      font-family: "Comic Sans MS", "Segoe UI", sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      overflow: hidden;
-    }
+  margin: 0;
+  height: 100vh;
+  background:
+    linear-gradient(
+      rgba(255, 154, 158, 0.6),
+      rgba(250, 208, 196, 0.6)
+    ),
+    url("https://images.unsplash.com/photo-1518895949257-7621c3c786d7");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Comic Sans MS", "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
 
     .card {
       background: white;
